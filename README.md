@@ -22,7 +22,7 @@ sh ./uninstall.sh
 
 ```
 
-Updates are handled by running the install script again, you can just run the install script and all good! However, Tetr.io desktop might have major updates which are handled manually, you may need to change the version in install.sh to make sure you got the right major version.
+Updates are handled by running the install script again. The script reads the latest major version from the Tetr.io download page, so major updates are picked up automatically. If detection ever fails, or you want a specific version, set it yourself: `TETRIO_VERSION=10 ./install.sh`
 
 ```bash
 
